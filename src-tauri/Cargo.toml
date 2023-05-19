@@ -1,10 +1,10 @@
 [package]
-name = "tauri-app"
-version = "0.0.0"
+name = "iris-tauri"
+version = "1.0.0"
 description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
+authors = ["azusachino"]
+license = "LICENSE"
+repository = "https://github.com/azusachino/iris-tauri"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -19,5 +19,4 @@ serde_json = "1.0"
 
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem
-# DO NOT REMOVE!!
 custom-protocol = ["tauri/custom-protocol"]
